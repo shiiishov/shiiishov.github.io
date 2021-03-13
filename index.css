@@ -268,4 +268,7 @@ header .logo
     width: auto;
     height: auto;
   }
+  .menu {
+    font-size: 30px;
+  }
 }

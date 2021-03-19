@@ -234,9 +234,8 @@ header .logo
   {
     padding: 40px;
   }
-  .toggle {
-    width: 120px;
-    height: 120px;
+  .showcase .toggle, .toggle.active {
+    background-size: 50px;
   }
   h2 {
     font-size: 3em;
@@ -257,11 +256,15 @@ header .logo
   {
     font-size: 1.7em;
   }
-  .social {
-    width: auto;
-    height: auto;
+  .text a
+  {
+    font-size: 1.7em;
   }
-  .menu {
-    font-size: 30px;
+  .social img, svg{
+    width: auto;
+    height: 120px;
+  }
+  .menu ul li a {
+    font-size: 3em;
   }
 }
